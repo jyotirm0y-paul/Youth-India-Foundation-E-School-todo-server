@@ -45,7 +45,7 @@ client.connect(err => {
         $set: { toDo: req.body.toDo }
       })
       .then(() => {
-        res.send({ success: true });
+        res.send({ success: true }); 
       })
   });
 
